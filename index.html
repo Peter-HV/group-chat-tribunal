@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>The Group Chat Tribunal</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="app-shell">
+    <section id="landing-screen">
+      <p class="eyebrow">PRIVATE GROUP GAME</p>
+
+      <h1>The Group Chat Tribunal</h1>
+
+      <p class="subtitle">
+        Your group decides whether everyday behavior is a green flag,
+        red flag, or straight to jail.
+      </p>
+
+      <button id="start-game-btn">
+        Start a Tribunal
+      </button>
+
+      <div id="prompt-card" class="prompt-card hidden">
+        <p id="prompt-category" class="category"></p>
+        <h2 id="prompt-text"></h2>
+      </div>
+    </section>
+  </main>
+
+  <script src="prompts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
